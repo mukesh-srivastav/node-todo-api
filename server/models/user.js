@@ -10,3 +10,5 @@ var user = mongoose.model('User', {
 });
 
 module.exports = {user};
+
+// Access this file using const {user} = require('./../server/models/user');
